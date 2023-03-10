@@ -6,7 +6,7 @@ import './styles/global.scss';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/century-v1">
       <Routes>
         <Route element={<Home />} path="/" exact />
         <Route element={<SuportPage />} path="/suporte" />
